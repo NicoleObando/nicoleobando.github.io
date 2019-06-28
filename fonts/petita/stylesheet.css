@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'PetitaMedium';
+    src: url('PetitaMedium.eot');
+    src: url('PetitaMedium.eot?#iefix') format('embedded-opentype'),
+        url('PetitaMedium.woff2') format('woff2'),
+        url('PetitaMedium.woff') format('woff'),
+        url('PetitaMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PetitaBold';
+    src: url('PetitaBold.eot');
+    src: url('PetitaBold.eot?#iefix') format('embedded-opentype'),
+        url('PetitaBold.woff2') format('woff2'),
+        url('PetitaBold.woff') format('woff'),
+        url('PetitaBold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PetitaLight';
+    src: url('PetitaLight.eot');
+    src: url('PetitaLight.eot?#iefix') format('embedded-opentype'),
+        url('PetitaLight.woff2') format('woff2'),
+        url('PetitaLight.woff') format('woff'),
+        url('PetitaLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
