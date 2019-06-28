@@ -88,13 +88,18 @@ body {
     padding-bottom: 40px;
 }
 
+button.homeBtn {
+    display: block;
+}
+
 .homeBtn {
     color: #009bd6;
-    font-family: Cocogoose;
+    font-family: cocogoose;
     font-weight: normal;
     font-style: normal;
     font-size: 25px;
     border-style: solid;
+    border-width: 1px;
     max-width: 230px;
     text-align: center;
     margin: auto;
@@ -576,7 +581,7 @@ span.cerrar {
 @media screen and (max-width: 768px){
 
 .wrap-input100 {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 input.input100 {
@@ -596,7 +601,7 @@ input.input100 {
 @media screen and (max-width: 767px){
 #serviciosSection {
     
-    padding-bottom: 10%;
+    padding-bottom: 15%;
   
 }
 
@@ -674,6 +679,10 @@ input.input100 {
 
 @media screen and (max-width: 559px){
 
+.col-lg-3.col-xs-12.colCenter {
+    padding-top: 20px;
+}
+
 .textLight {
     font-size: 28px;
     line-height: 38px;
@@ -701,6 +710,8 @@ input.input100 {
 .modal-content {
     padding: 0 35px;
 }
+
+
 }
 
 
@@ -708,6 +719,19 @@ input.input100 {
 .container-fluid {
     padding-left: 90px;
     padding-right: 90px;
+}
+
+    .modalContact {
+    width: 100%;
+    }
+
+    .container-contact100-form-btn {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+input.input100 {
+    height: 30px;
 }
 }
 
