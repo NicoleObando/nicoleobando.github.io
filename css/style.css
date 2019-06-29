@@ -9,7 +9,16 @@
 }
 
 @font-face {
-  font-family: Cocogoose-UltraLight;
+  font-family: Cocogoose-Light;
+  src: url('../fonts/Cocogoose-Light.eot');
+  src: url('../fonts/Cocogoose-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Cocogoose-Light.woff') format('woff'),
+       url('../fonts/Cocogoose-Light.ttf')  format('truetype');
+}
+
+
+@font-face {
+  font-family: CocoUltraLight;
   src: url('../fonts/COCOGOOSE-UltraLight.eot');
   src: url('../fonts/COCOGOOSE-UltraLight.eot?#iefix') format('embedded-opentype'),
        url('../fonts/COCOGOOSE-UltraLight.woff') format('woff'),
@@ -90,11 +99,19 @@ body {
 
 button.homeBtn {
     display: block;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button.homeBtn:hover {
+    background: #009cd7;
+    color: white;
 }
 
 .homeBtn {
     color: #009bd6;
-    font-family: cocogoose;
+    font-family: PetitaLight;
     font-weight: normal;
     font-style: normal;
     font-size: 25px;
@@ -104,6 +121,11 @@ button.homeBtn {
     text-align: center;
     margin: auto;
     padding: 10px;
+}
+
+.row.text {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .peopleImg{
@@ -153,8 +175,8 @@ button.homeBtn {
 
 #serviciosSection{
  background-color: #d1e0e2;	
- padding-top:3rem!important;
- padding-bottom: 10%;
+ padding-top:5rem!important;
+ padding-bottom: 10rem;
  position: relative;
 }
 
@@ -342,20 +364,21 @@ button.homeBtn {
 	font-size: 22px;
 	font-family: Cocogoose;
     font-weight: normal;
-    color: white;
+    color: #8a8a8a;
 }
 
 .contactBtn {
     border-style: solid;
     border-width: 1px;
-    border-color: white;
+    border-color: #8a8a8a;
     padding: 15px 30px;
     border-radius: 30px;
-    color: white;
+    color: #bbbbbb;
     max-width: 230px;
     margin: auto;
     font-size: 25px;
     background: transparent;
+    font-family: cocogoose;
 }
 
 .contactBtn:hover {
@@ -370,11 +393,12 @@ button.homeBtn {
 }
 
 .copy{
+
     margin-top: 140px;
     padding: 70px 0 69px;
     border-top: 1px solid rgba(255,255,255,.07);
     text-align: center;
-    color: white;
+    color: #717171;
 
 }
 
@@ -442,6 +466,37 @@ span.cerrar {
     padding-top: 60px;
 }
 
+/*ANIMATIONS*/
+
+.tabImg{
+     animation-iteration-count: 0;
+     animation-duration: 1s;
+}
+
+.tabImg:hover{
+     animation-iteration-count: 3;
+     animation-duration: 20s;
+}
+
+.clockImg{
+     animation-iteration-count: 0;
+     animation-duration: 1s;
+}
+
+.clockImg:hover{
+     animation-iteration-count: 1;
+     animation-duration: 10s;
+}
+
+.phImg{
+     animation-iteration-count: 0;
+     animation-duration: 1s;
+}
+
+.phImg:hover{
+     animation-iteration-count: 3;
+     animation-duration: 10s;
+}
 
 /*RWD*/
 
